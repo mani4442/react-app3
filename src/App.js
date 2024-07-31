@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
 function App() {
+  const firstName= 'Gowrinadha Manikanta';
+  const lastname = 'Badam';
+  const age = 21
+  const job = 'Developer'
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>ReactJS by Manikanta</h1>
+        firstName : {firstName}
+        lastname:{lastname}<br></br>
+        age:{age}<br></br>
+        job:{job}
     </div>
   );
 }
-
 export default App;
